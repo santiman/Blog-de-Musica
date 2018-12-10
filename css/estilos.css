@@ -1,0 +1,12 @@
+.logo-img{
+  display: block;
+  background: green;
+  border-radius: 30px;
+  width: 200px;
+}
+
+.img-social{
+  width: 60px;
+  height: 60px;
+  margin-top: 70px;
+}

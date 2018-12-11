@@ -1,12 +1,117 @@
+.contenido{
+  margin: 0;
+  width: 100%;
+}
+
+body{
+  font-family: verdana;
+  width: 90%;
+  background-color: #F2F2F2;
+  color: white;
+  margin-left: 5%;
+}
+
+header{
+  background-color: grey;
+}
+
+
 .logo-img{
   display: block;
-  background: green;
+  background: #F2F2F2;
   border-radius: 30px;
-  width: 200px;
+  width: 170px;
+  margin: 8px;
+  margin-left: 30px;
 }
 
 .img-social{
-  width: 60px;
-  height: 60px;
-  margin-top: 70px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-top: 69px;
+  display: block;
+  background: #F2F2F2;
+  border-radius: 10px;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+ .img-social:hover {
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+nav{
+  background: black;
+  height: 50px;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
+}
+
+.secciones{
+  width: 13%;
+  height: 30px;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  color: black;
+  float: left;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+
+.secciones:hover{
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+.muro{
+  background: grey;
+}
+
+.publicaciones{
+  background: #A4A4A4;
+  color: black;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+.img-publicacion img{
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+
+.img-comentario img{
+  width: 65px;
+  height: 65px;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+.comentario{
+
+}
+
+.img-comentario{
+  float: left;
+  margin: 5px;
+}
+
+.input-comentario{
+  margin: 5px;
+
 }

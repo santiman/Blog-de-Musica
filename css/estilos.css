@@ -79,17 +79,26 @@ nav{
   background: grey;
 }
 
-.publicaciones{
+.publicacion{
   background: #A4A4A4;
   color: black;
-  margin: 8px;
+  margin-top: 10px;
   border-radius: 5px;
 }
 
 .img-publicacion img{
-  text-align: center;
   height: 200px;
   width: 200px;
+}
+
+.img-publicacion{
+  text-align: center;
+  padding: 5px;
+}
+
+textarea{
+  width: 90%;
+  height: 65px;
 }
 
 .img-comentario img{
@@ -103,7 +112,7 @@ textarea {
 }
 
 .comentario{
-
+  width: 100%;
 }
 
 .img-comentario{
@@ -114,4 +123,40 @@ textarea {
 .input-comentario{
   margin: 5px;
 
+}
+
+.columna-2{
+  background: #A4A4A4;
+  color: black;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.buscador input{
+  width: 206px;
+  float: left;
+  border: 0;
+}
+
+.buscador span{
+  float: left;
+}
+
+.buscador button{
+  background: white;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  height: 46px;
+  border-left: solid 1px #ccc;
+}
+
+.buscador img{
+  width: 15px;
+}
+
+.buscador button:hover{
+  background: white;
+  border: 0;
+  border-left: solid 1px #ccc;
 }

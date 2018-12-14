@@ -7,12 +7,14 @@ body{
   font-family: verdana;
   width: 90%;
   background-color: #F2F2F2;
-  color: white;
+  color: #D8D4D5;
   margin-left: 5%;
 }
 
 header{
   background-color: grey;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 
@@ -23,6 +25,7 @@ header{
   width: 170px;
   margin: 8px;
   margin-left: 30px;
+
 }
 
 .img-social{
@@ -43,7 +46,7 @@ header{
 }
 
 nav{
-  background: black;
+
   height: 50px;
   border-bottom-left-radius:7px;
   border-bottom-right-radius:7px;
@@ -51,32 +54,34 @@ nav{
 
 .secciones{
   width: 13%;
-  height: 30px;
+  bottom: 4px;
   text-align: center;
-  display: block;
-  border-radius: 5px;
-  background-color: #F2F2F2;
-  color: black;
   float: left;
   text-decoration: none;
   font-size: 20px;
   font-style: normal;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-left: 3.3%;
+  border: 15px solid grey;
   transition: 0.4s;
+}
+
+.secciones a{
+  color: black;
+  text-decoration: none;
 }
 
 .secciones:hover{
   text-decoration: none;
   color: black;
   opacity: 0.8;
-  border-radius: 8px;
+  border: 10px solid grey;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .muro{
   background: grey;
+  bottom: 13px;
 }
 
 .publicacion{
@@ -132,8 +137,13 @@ textarea {
   margin-top: 8px;
 }
 
+.buscador{
+  text-align: center;
+
+}
+
 .buscador input{
-  width: 206px;
+  width: 80%;
   float: left;
   border: 0;
 }
@@ -148,10 +158,13 @@ textarea {
   border: 0;
   color: #666666;
   height: 46px;
+  width: 50px;;
+  text-align: center;
   border-left: solid 1px #ccc;
 }
 
 .buscador img{
+  text-align: left;
   width: 15px;
 }
 
@@ -159,4 +172,53 @@ textarea {
   background: white;
   border: 0;
   border-left: solid 1px #ccc;
+}
+
+.lista{
+  text-align: center;
+  margin: 53px 8px 0px 8px;
+}
+
+.casillas a{
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.casillas a:hover{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.casillas{
+  background: #A4A4A4;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 750px) {
+  .secciones{
+    margin-top: 15px;
+    width: 100%;
+    margin-left: 8px;
+  }
+
+  .logo-img{
+    margin-left: 75px;
+    width: 70%;
+    height: 160px;
+  }
+
+  .redes-soci{
+    margin-left: 89px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+
+  .publicacion{
+    margin-bottom: 15px;
+  }
+
+  .columna-2{
+    display: none;
+  }
 }

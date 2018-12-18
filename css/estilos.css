@@ -1,7 +1,4 @@
-.contenido{
-  margin: 0;
-  width: 100%;
-}
+
 
 body{
   font-family: verdana;
@@ -98,7 +95,7 @@ nav{
 
 .img-publicacion{
   text-align: center;
-  padding: 5px;
+  padding: 8px;
 }
 
 textarea{
@@ -195,7 +192,13 @@ textarea {
   border: 1px solid white;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 840px) {
+
+  body{
+    width: 100%;
+    margin-left: 0;
+  }
+
   .secciones{
     margin-top: 15px;
     width: 100%;
@@ -209,7 +212,7 @@ textarea {
   }
 
   .redes-soci{
-    margin-left: 89px;
+    margin-left: 10%;
     margin-bottom: 20px;
     margin-top: 0px;
   }
@@ -221,4 +224,11 @@ textarea {
   .columna-2{
     display: none;
   }
+
+  .input-comentario{
+    float: left;
+    width: 67%;
+  }
+
+
 }
